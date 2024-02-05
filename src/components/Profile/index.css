@@ -1,0 +1,44 @@
+.profile-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 250px;
+  width: 300px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  margin: 30px;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 20px;
+}
+.head {
+  font-size: 25px;
+  color: #6366f1;
+  font-weight: bold;
+}
+.p1 {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+}
+.img {
+  margin-top: 10px;
+}
+.failure-cont {
+  background-color: transparent;
+  height: 250px;
+  width: 300px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-btn {
+  height: 40px;
+  width: 100px;
+  background-color: #4f46e5;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+}
