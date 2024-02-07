@@ -13,7 +13,6 @@ import './App.css'
 
 // Replace your code here
 const App = () => (
-  <BrowserRouter>
     <Switch>
       <Route exact path="/login" component={LoginForm} />
       <ProtectedRoute exact path="/" component={Home} />
@@ -22,7 +21,6 @@ const App = () => (
       <Route path="/not-found" component={NotFound} />
       <Redirect to="not-found" />
     </Switch>
-  </BrowserRouter>
 )
 
 export default App
