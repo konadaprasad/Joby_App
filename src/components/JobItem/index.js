@@ -143,6 +143,7 @@ class JobItem extends Component {
   }
 
   retryJobButton = () => {
+    console.log('faillure')
     this.setState({view: Views.loading}, this.getJobDetail)
   }
 
@@ -259,11 +260,15 @@ class JobItem extends Component {
     </div>
   )
 
-  renderLoadingView = () => (
-    <div className="loader-container" data-testid="loader">
-      <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
-    </div>
-  )
+  renderLoadingView = () => {
+    console.log('loading')
+
+    return (
+      <div className="loader-container" data-testid="loader">
+        <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
+      </div>
+    )
+  }
 
   renderJobItem = () => {
     const {view} = this.state
